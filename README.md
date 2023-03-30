@@ -1,4 +1,3 @@
-# Password-Generator
 import random
 import string
    #This a Hebrew Media exclusive 
@@ -17,7 +16,7 @@ def generate_password(min_length, numbers=True, special_characters=True):
     pwd = ""
     meets_criteria = False
     has_number = False
-    has_special = False
+    has_special = False    
 
     while not meets_criteria or len(pwd) < min_length:
         new_char = random.choice(characters)
